@@ -1,0 +1,188 @@
+
+body {
+    background-image: url("../Images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;  
+  }
+
+header h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 2%; 
+}
+
+main h1{
+    color: rgb(180, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+main {
+    margin-top: 10px;
+    width: 75%;
+    min-height: 600px;
+    background-color: #FFFFFF;
+    margin: auto;
+    border: 1px black solid;
+    padding: 2%;  
+}
+
+/* ----------------------------------------*/
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+table th {
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(182, 69, 54); 
+    color: white;
+}
+
+/* ----------------------------------------*/
+
+.textWithImage {
+    margin: 10px;
+}
+
+.textWithImage p {
+    display: inline-block;
+    vertical-align: top;
+    width:65%;
+}
+
+.textWithImage img {
+    margin:5px;
+    display: inline-block;
+    width: 30%;
+}
+
+/* ----------------------------------------*/
+
+.button {
+    background-color: #811616; 
+    border-style:double;
+    border-color: black;
+    color: white;
+    padding: 15px 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5%;
+  }
+
+/* ----------------------------------------*/
+
+#navbar {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    display: block;
+    transition: top 0.3s;
+    padding: 14px 16px; 
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+#navbar li a {
+    font-size: 20px; 
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#navbar a {
+    font-size: 20px; 
+    text-decoration: none;
+    float: right;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+}
+#navbar a:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+/* ----------------------------------------*/
+/* Form CSS */
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 1%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 0.5%; 
+    margin-bottom: 3%; 
+    resize: vertical 
+  }
+
+  input[type=password], select, textarea {
+    width: 100%; 
+    padding: 1%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 0.5%; 
+    margin-bottom: 3%; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #aa0404;
+    color: white;
+    padding: 1% 2%; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a04545;
+  }
+  
+  .container {
+    border-radius: 0.5%;
+    background-color: #f2f2f2;
+    padding: 2%;
+  } 
+/* -----------------------------------------*/
+
+footer {
+    margin-top: 1%;
+    text-align: center;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 2%;
+}
